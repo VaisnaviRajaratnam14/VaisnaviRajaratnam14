@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" width="100%" height="320">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0818" />
+      <stop offset="50%" stop-color="#0f0b26" />
+      <stop offset="100%" stop-color="#090c1d" />
+    </linearGradient>
+    <linearGradient id="purpleCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.75" />
+      <stop offset="50%" stop-color="#3b82f6" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.75" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Neon Container -->
+  <rect x="2" y="2" width="996" height="316" rx="16" fill="url(#cardBg)" stroke="url(#purpleCyan)" stroke-width="2" />
+
+  <!-- Section Header -->
+  <circle cx="42" cy="40" r="14" fill="#2e1065" stroke="#a855f7" stroke-width="1.5" />
+  <text x="42" y="45" text-anchor="middle" font-size="14" font-family="'Segoe UI Emoji', sans-serif">👩‍💻</text>
+  <text x="68" y="46" fill="#ffffff" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="700">
+    About Me
+  </text>
+  <line x1="28" y1="64" x2="972" y2="64" stroke="#2e1065" stroke-width="1.5" />
+
+  <!-- Left Glowing Accent Bar -->
+  <rect x="34" y="80" width="4" height="218" rx="2" fill="url(#accentGrad)" />
+
+  <!-- Bullet Points Matching Reference Design -->
+  <g font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif" font-size="15" fill="#e2e8f0">
+    <text x="54" y="98">🎓  <tspan font-weight="600" fill="#ffffff">BSc (Hons) Software Engineering</tspan> – University of Bedfordshire (2:1).</text>
+    <text x="54" y="126">💼  <tspan font-weight="600" fill="#ffffff">Software Engineer</tspan> at <tspan fill="#c084fc" font-weight="600">Ultrakerb</tspan>.</text>
+    <text x="54" y="154">🤖  Interested in <tspan fill="#38bdf8" font-weight="600">Artificial Intelligence, Machine Learning</tspan> and <tspan fill="#38bdf8" font-weight="600">Computer Vision</tspan>.</text>
+    <text x="54" y="182">🧠  Exploring <tspan fill="#c084fc" font-weight="600">Generative AI, Deep Learning</tspan> and <tspan fill="#c084fc" font-weight="600">Diffusion Models</tspan>.</text>
+    <text x="54" y="210">📱  Building <tspan fill="#ffffff" font-weight="600">Full-Stack Web</tspan> and <tspan fill="#ffffff" font-weight="600">Mobile Applications</tspan>.</text>
+    <text x="54" y="238">🔬  Currently researching <tspan fill="#38bdf8" font-weight="600">AI-based Virtual Saree Draping</tspan> (Stable Diffusion &amp; PyTorch).</text>
+    <text x="54" y="266">🌱  Always learning and exploring new technologies.</text>
+    <text x="54" y="294">📍  <tspan fill="#cbd5e1">Jaffna, Sri Lanka.</tspan></text>
+  </g>
+</svg>

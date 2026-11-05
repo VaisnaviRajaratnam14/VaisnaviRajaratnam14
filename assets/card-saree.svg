@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 265" width="310" height="265">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b081d" />
+      <stop offset="100%" stop-color="#090c1f" />
+    </linearGradient>
+    <linearGradient id="art" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b0764" />
+      <stop offset="50%" stop-color="#6d28d9" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+    <linearGradient id="border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="306" height="261" rx="14" fill="url(#bg)" stroke="url(#border)" stroke-width="1.8" />
+  <!-- Top Illustration Banner -->
+  <rect x="10" y="10" width="290" height="105" rx="10" fill="url(#art)" />
+  <circle cx="245" cy="45" r="35" fill="#c084fc" opacity="0.2" />
+  <circle cx="75" cy="70" r="45" fill="#38bdf8" opacity="0.15" />
+  <!-- Saree / AI Neural Mesh Iconography -->
+  <text x="155" y="72" text-anchor="middle" font-size="38" font-family="'Segoe UI Emoji', sans-serif">🥻✨</text>
+  <rect x="18" y="18" width="90" height="22" rx="11" fill="#090716" opacity="0.75" stroke="#c084fc" stroke-width="1" />
+  <text x="63" y="33" text-anchor="middle" fill="#e9d5ff" font-family="'Segoe UI', sans-serif" font-size="10.5" font-weight="700">GENERATIVE AI</text>
+
+  <!-- Title & Description -->
+  <text x="20" y="142" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="16.5" font-weight="700">AI Saree Draping Studio</text>
+  <text x="20" y="166" fill="#94a3b8" font-family="'Segoe UI', sans-serif" font-size="12.5">AI-powered virtual saree draping &amp;</text>
+  <text x="20" y="184" fill="#94a3b8" font-family="'Segoe UI', sans-serif" font-size="12.5">multi-garment diffusion try-on studio</text>
+
+  <!-- Divider -->
+  <line x1="20" y1="212" x2="290" y2="212" stroke="#1e1b4b" stroke-width="1.2" />
+
+  <!-- Tech Stack Footer -->
+  <circle cx="26" cy="236" r="4.5" fill="#c084fc" />
+  <text x="37" y="240" fill="#c084fc" font-family="'Segoe UI', sans-serif" font-size="12.5" font-weight="600">Python • PyTorch • Diffusion • OpenCV</text>
+</svg>
