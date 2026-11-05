@@ -1,37 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 265" width="310" height="265">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0b081d" />
-      <stop offset="100%" stop-color="#090c1f" />
+      <stop offset="0%" stop-color="#040a1d" />
+      <stop offset="100%" stop-color="#071330" />
     </linearGradient>
     <linearGradient id="art" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#311042" />
-      <stop offset="50%" stop-color="#1e1b4b" />
-      <stop offset="100%" stop-color="#422006" />
+      <stop offset="0%" stop-color="#0d214f" />
+      <stop offset="50%" stop-color="#1e3a8a" />
+      <stop offset="100%" stop-color="#091534" />
     </linearGradient>
     <linearGradient id="border" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#facc15" />
-      <stop offset="100%" stop-color="#a855f7" />
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#818cf8" />
     </linearGradient>
   </defs>
   <rect x="2" y="2" width="306" height="261" rx="14" fill="url(#bg)" stroke="url(#border)" stroke-width="1.8" />
-  <!-- Top Illustration Banner -->
   <rect x="10" y="10" width="290" height="105" rx="10" fill="url(#art)" />
-  <circle cx="235" cy="45" r="35" fill="#facc15" opacity="0.2" />
-  <circle cx="75" cy="70" r="45" fill="#c084fc" opacity="0.2" />
+  <circle cx="235" cy="45" r="35" fill="#38bdf8" opacity="0.22" />
+  <circle cx="75" cy="70" r="45" fill="#818cf8" opacity="0.22" />
   <text x="155" y="72" text-anchor="middle" font-size="38" font-family="'Segoe UI Emoji', sans-serif">🎮🍌</text>
-  <rect x="18" y="18" width="94" height="22" rx="11" fill="#090716" opacity="0.75" stroke="#facc15" stroke-width="1" />
-  <text x="65" y="33" text-anchor="middle" fill="#fef08a" font-family="'Segoe UI', sans-serif" font-size="10.5" font-weight="700">API GAMING</text>
+  <rect x="18" y="18" width="94" height="22" rx="11" fill="#030816" opacity="0.8" stroke="#38bdf8" stroke-width="1" />
+  <text x="65" y="33" text-anchor="middle" fill="#bae6fd" font-family="'Segoe UI', sans-serif" font-size="10.5" font-weight="700">API GAMING</text>
 
-  <!-- Title & Description -->
   <text x="20" y="142" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="16.5" font-weight="700">BananaAPI Game</text>
-  <text x="20" y="166" fill="#94a3b8" font-family="'Segoe UI', sans-serif" font-size="12.5">Interactive puzzle game powered by</text>
-  <text x="20" y="184" fill="#94a3b8" font-family="'Segoe UI', sans-serif" font-size="12.5">external REST API &amp; dynamic scoring</text>
+  <text x="20" y="166" fill="#93c5fd" font-family="'Segoe UI', sans-serif" font-size="12.5">Interactive puzzle game powered by</text>
+  <text x="20" y="184" fill="#93c5fd" font-family="'Segoe UI', sans-serif" font-size="12.5">external REST API &amp; dynamic scoring</text>
 
-  <!-- Divider -->
-  <line x1="20" y1="212" x2="290" y2="212" stroke="#1e1b4b" stroke-width="1.2" />
+  <line x1="20" y1="212" x2="290" y2="212" stroke="#1e3a8a" stroke-width="1.2" />
 
-  <!-- Tech Stack Footer -->
-  <circle cx="26" cy="236" r="4.5" fill="#facc15" />
-  <text x="37" y="240" fill="#facc15" font-family="'Segoe UI', sans-serif" font-size="12.5" font-weight="600">JavaScript • REST API • HTML5/CSS3</text>
+  <circle cx="26" cy="236" r="4.5" fill="#38bdf8" />
+  <text x="37" y="240" fill="#38bdf8" font-family="'Segoe UI', sans-serif" font-size="12.5" font-weight="600">JavaScript • REST API • HTML5/CSS3</text>
 </svg>
