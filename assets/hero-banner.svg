@@ -1,107 +1,129 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 285" width="100%" height="285">
   <defs>
-    <!-- Deep Sapphire & Midnight Navy Gradient -->
+    <!-- Cosmic Deep Blue & Violet Background -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#030816" />
-      <stop offset="45%" stop-color="#071330" />
-      <stop offset="100%" stop-color="#040b1e" />
+      <stop offset="0%" stop-color="#050718" />
+      <stop offset="50%" stop-color="#0a0e29" />
+      <stop offset="100%" stop-color="#110c32" />
     </linearGradient>
-    <!-- Electric Blue to Cyan Name Gradient -->
+    <!-- Glowing Purple-Pink Name Gradient -->
     <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38bdf8" />
-      <stop offset="50%" stop-color="#60a5fa" />
+      <stop offset="0%" stop-color="#a855f7" />
+      <stop offset="50%" stop-color="#c084fc" />
       <stop offset="100%" stop-color="#818cf8" />
     </linearGradient>
-    <!-- Glowing Electric Blue Border -->
+    <!-- Neon Purple to Electric Blue Border -->
     <linearGradient id="neonBorder" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#1d4ed8" stop-opacity="0.9" />
-      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.95" />
-      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.9" />
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#3b82f6" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.9" />
     </linearGradient>
-    <!-- Laptop Screen Dark Blue Gradient -->
+    <!-- Laptop Screen Glow -->
     <linearGradient id="screenGlow" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0f295c" />
-      <stop offset="100%" stop-color="#051026" />
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="50%" stop-color="#1e3a8a" />
+      <stop offset="100%" stop-color="#090d26" />
     </linearGradient>
     <!-- Pill Box Gradient -->
     <linearGradient id="pillBg" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#081738" />
-      <stop offset="100%" stop-color="#0c214e" />
+      <stop offset="0%" stop-color="#0d1333" />
+      <stop offset="100%" stop-color="#171342" />
+    </linearGradient>
+    <!-- Flowing Light Wave Gradient -->
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0" />
+      <stop offset="50%" stop-color="#8b5cf6" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.9" />
     </linearGradient>
     <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="7" result="blur" />
+      <feGaussianBlur stdDeviation="8" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
   </defs>
 
-  <!-- Outer Dark Blue Card -->
+  <!-- Main Card Container -->
   <rect x="2" y="2" width="996" height="281" rx="18" fill="url(#bgGrad)" stroke="url(#neonBorder)" stroke-width="2.2" />
 
-  <!-- Subtle Cyber Blue Grid Lines -->
-  <g stroke="#1e3a8a" stroke-width="0.5" opacity="0.25">
-    <line x1="0" y1="70" x2="1000" y2="70" />
-    <line x1="0" y1="140" x2="1000" y2="140" />
-    <line x1="0" y1="210" x2="1000" y2="210" />
-    <line x1="250" y1="0" x2="250" y2="285" />
-    <line x1="500" y1="0" x2="500" y2="285" />
-    <line x1="750" y1="0" x2="750" y2="285" />
-  </g>
+  <!-- Ambient Nebula Orbs -->
+  <circle cx="810" cy="135" r="120" fill="#6d28d9" opacity="0.25" filter="url(#glow)" />
+  <circle cx="740" cy="165" r="95" fill="#2563eb" opacity="0.22" filter="url(#glow)" />
+  <circle cx="200" cy="60" r="90" fill="#4f46e5" opacity="0.12" filter="url(#glow)" />
 
-  <!-- Glowing Blue Star Particles -->
-  <circle cx="85" cy="38" r="1.8" fill="#38bdf8" opacity="0.7" />
-  <circle cx="460" cy="32" r="2.2" fill="#60a5fa" opacity="0.6" />
-  <circle cx="640" cy="65" r="1.6" fill="#06b6d4" opacity="0.8" />
-  <circle cx="930" cy="42" r="2" fill="#38bdf8" opacity="0.7" />
-  <circle cx="570" cy="235" r="1.8" fill="#3b82f6" opacity="0.5" />
-  <circle cx="710" cy="250" r="2.2" fill="#06b6d4" opacity="0.6" />
+  <!-- Flowing Cosmic Light Waves Under Laptop -->
+  <path d="M 540 245 Q 670 210 780 235 T 990 215" fill="none" stroke="url(#waveGrad)" stroke-width="3" opacity="0.75" />
+  <path d="M 580 260 Q 710 230 820 250 T 990 235" fill="none" stroke="#38bdf8" stroke-width="1.5" opacity="0.5" />
 
-  <!-- Ambient Sapphire & Cyan Orbs -->
-  <circle cx="815" cy="140" r="115" fill="#1d4ed8" opacity="0.22" filter="url(#glow)" />
-  <circle cx="755" cy="160" r="85" fill="#0284c7" opacity="0.20" filter="url(#glow)" />
+  <!-- Starlight Sparkles -->
+  <circle cx="480" cy="40" r="1.8" fill="#c084fc" opacity="0.8" />
+  <circle cx="620" cy="52" r="2.2" fill="#38bdf8" opacity="0.7" />
+  <circle cx="940" cy="38" r="2" fill="#e879f9" opacity="0.8" />
+  <circle cx="660" cy="190" r="1.5" fill="#60a5fa" opacity="0.6" />
+  <circle cx="910" cy="100" r="2" fill="#a855f7" opacity="0.7" />
 
-  <!-- Left Content: Greeting & Headline -->
-  <text x="48" y="68" fill="#f8fafc" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif" font-size="30" font-weight="700">
+  <!-- Left Content: Greeting & Name -->
+  <text x="48" y="66" fill="#ffffff" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif" font-size="29" font-weight="700">
     Hi, I'm 👋
   </text>
 
-  <text x="48" y="115" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif" font-size="41" font-weight="800">
+  <text x="48" y="114" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif" font-size="42" font-weight="800">
     <tspan fill="#ffffff">Vaisnavi </tspan>
     <tspan fill="url(#nameGrad)">Rajaratnam</tspan>
   </text>
 
-  <!-- Terminal Pill Box -->
-  <rect x="48" y="138" width="545" height="42" rx="9" fill="url(#pillBg)" stroke="#2563eb" stroke-width="1.6" />
-  <text x="66" y="164" fill="#e2e8f0" font-family="'Consolas', 'Courier New', monospace" font-size="15.5" font-weight="600">
-    <tspan fill="#38bdf8">&gt; </tspan>Software Engineer | AI &amp; Computer Vision Enthusiast <tspan fill="#06b6d4">_</tspan>
+  <!-- Rounded Role Pill Box: + Software Engineer | AI & Computer Vision Enthusiast -->
+  <rect x="48" y="136" width="535" height="40" rx="20" fill="url(#pillBg)" stroke="#6366f1" stroke-width="1.6" />
+  <text x="68" y="161" fill="#f1f5f9" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="600">
+    <tspan fill="#c084fc">✦ </tspan>Software Engineer  <tspan fill="#6366f1">|</tspan>  AI &amp; Computer Vision Enthusiast
   </text>
 
-  <!-- Tagline -->
-  <text x="48" y="214" fill="#bae6fd" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif" font-size="17" font-style="italic">
+  <!-- Italic Tagline -->
+  <text x="48" y="208" fill="#cbd5e1" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif" font-size="16.5" font-style="italic">
     Building Intelligent Software &amp; AI-Powered Solutions ✨
   </text>
 
-  <!-- Location & Education Subtitle -->
-  <text x="48" y="248" fill="#93c5fd" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="500">
-    🎓 BSc (Hons) Software Engineering – University of Bedfordshire (2:1)   •   📍 Jaffna, Sri Lanka
-  </text>
+  <!-- Social Pill Buttons Visual Row -->
+  <g transform="translate(48, 226)">
+    <!-- GitHub Pill -->
+    <rect x="0" y="0" width="108" height="34" rx="17" fill="#0d1127" stroke="#3b82f6" stroke-width="1.3" />
+    <circle cx="22" cy="17" r="9" fill="#ffffff" />
+    <text x="22" y="21" text-anchor="middle" fill="#0d1127" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="900">🐙</text>
+    <text x="64" y="22" text-anchor="middle" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="600">GitHub</text>
 
-  <!-- Right Content: Cyberpunk Glowing Sapphire Laptop Illustration -->
-  <g transform="translate(690, 52)">
+    <!-- LinkedIn Pill -->
+    <rect x="122" y="0" width="118" height="34" rx="17" fill="#0d1127" stroke="#38bdf8" stroke-width="1.3" />
+    <rect x="135" y="8" width="18" height="18" rx="4" fill="#0284c7" />
+    <text x="144" y="21" text-anchor="middle" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="800">in</text>
+    <text x="190" y="22" text-anchor="middle" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="600">LinkedIn</text>
+
+    <!-- Email Pill -->
+    <rect x="254" y="0" width="104" height="34" rx="17" fill="#0d1127" stroke="#a855f7" stroke-width="1.3" />
+    <text x="275" y="22" text-anchor="middle" font-size="13">✉️</text>
+    <text x="316" y="22" text-anchor="middle" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="600">Email</text>
+  </g>
+
+  <!-- Right Content: Glowing Laptop with GitHub Octocat Emblem on Screen -->
+  <g transform="translate(685, 42)">
+    <!-- Pedestal / Tech Base -->
+    <polygon points="15,172 225,160 250,182 -5,194" fill="#080b20" stroke="#4f46e5" stroke-width="1.2" opacity="0.85" />
     <!-- Laptop Screen Frame -->
-    <polygon points="45,15 215,5 200,130 30,140" fill="url(#screenGlow)" stroke="#38bdf8" stroke-width="2.5" stroke-linejoin="round" />
+    <polygon points="48,15 218,4 202,132 32,143" fill="url(#screenGlow)" stroke="#60a5fa" stroke-width="2.5" stroke-linejoin="round" />
     <!-- Inner Screen Bezel -->
-    <polygon points="52,22 207,13 194,123 38,132" fill="#03091c" stroke="#1d4ed8" stroke-width="1.2" />
-    <!-- Code Symbol </> on Screen -->
-    <text x="122" y="84" text-anchor="middle" fill="#38bdf8" font-family="'Consolas', 'Courier New', monospace" font-size="38" font-weight="700" filter="url(#glow)">
-      &lt;/&gt;
-    </text>
-    <!-- Laptop Base / Keyboard Deck -->
-    <polygon points="30,140 200,130 245,162 0,174" fill="#0b1d42" stroke="#3b82f6" stroke-width="2" stroke-linejoin="round" />
-    <!-- Keyboard Grid Highlight -->
-    <polygon points="35,146 192,137 215,153 18,163" fill="#1e3a8a" opacity="0.75" />
+    <polygon points="55,22 210,12 196,125 40,135" fill="#06091e" stroke="#8b5cf6" stroke-width="1.2" />
+
+    <!-- GitHub Octocat Silhouette Circle on Laptop Screen -->
+    <circle cx="125" cy="74" r="32" fill="#e2e8f0" filter="url(#glow)" opacity="0.95" />
+    <!-- Octocat Head & Ears -->
+    <path d="M 111 66 L 114 54 L 120 60 Q 125 58 130 60 L 136 54 L 139 66 C 144 72 143 82 135 86 L 135 96 L 115 96 L 115 86 C 107 82 106 72 111 66 Z" fill="#090d26" />
+    <!-- Octocat Tentacle Tail -->
+    <path d="M 115 90 Q 105 90 103 83" fill="none" stroke="#090d26" stroke-width="3" stroke-linecap="round" />
+
+    <!-- Laptop Keyboard Deck -->
+    <polygon points="32,143 202,132 248,162 2,175" fill="#151940" stroke="#a855f7" stroke-width="2" stroke-linejoin="round" />
+    <!-- Keyboard Illumination -->
+    <polygon points="38,148 194,138 218,154 20,165" fill="#3b82f6" opacity="0.45" />
     <!-- Trackpad -->
-    <polygon points="102,158 140,156 146,164 96,166" fill="#040d21" stroke="#38bdf8" stroke-width="0.9" />
-    <!-- Bottom Neon Glow Line -->
-    <line x1="-10" y1="180" x2="255" y2="167" stroke="url(#neonBorder)" stroke-width="3.5" opacity="0.95" filter="url(#glow)" />
+    <polygon points="104,160 142,158 148,165 98,167" fill="#070b22" stroke="#38bdf8" stroke-width="1" />
+    <!-- Glowing Neon Underglow -->
+    <line x1="-8" y1="182" x2="258" y2="168" stroke="url(#neonBorder)" stroke-width="3.5" filter="url(#glow)" />
   </g>
 </svg>

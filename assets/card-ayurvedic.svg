@@ -1,33 +1,34 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 265" width="310" height="265">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#040a1d" />
-      <stop offset="100%" stop-color="#071330" />
+      <stop offset="0%" stop-color="#05081a" />
+      <stop offset="55%" stop-color="#0a0f2c" />
+      <stop offset="100%" stop-color="#110c32" />
     </linearGradient>
     <linearGradient id="art" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#072a40" />
-      <stop offset="50%" stop-color="#0e4f6e" />
-      <stop offset="100%" stop-color="#071636" />
+      <stop offset="0%" stop-color="#064e3b" />
+      <stop offset="50%" stop-color="#115e59" />
+      <stop offset="100%" stop-color="#1e1b4b" />
     </linearGradient>
     <linearGradient id="border" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#2dd4bf" />
-      <stop offset="100%" stop-color="#38bdf8" />
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#8b5cf6" />
     </linearGradient>
   </defs>
   <rect x="2" y="2" width="306" height="261" rx="14" fill="url(#bg)" stroke="url(#border)" stroke-width="1.8" />
   <rect x="10" y="10" width="290" height="105" rx="10" fill="url(#art)" />
-  <circle cx="240" cy="45" r="35" fill="#2dd4bf" opacity="0.2" />
-  <circle cx="70" cy="70" r="45" fill="#38bdf8" opacity="0.18" />
+  <circle cx="240" cy="45" r="35" fill="#34d399" opacity="0.2" />
+  <circle cx="70" cy="70" r="45" fill="#a855f7" opacity="0.18" />
   <text x="155" y="72" text-anchor="middle" font-size="38" font-family="'Segoe UI Emoji', sans-serif">🌿🏺</text>
-  <rect x="18" y="18" width="90" height="22" rx="11" fill="#030816" opacity="0.8" stroke="#2dd4bf" stroke-width="1" />
-  <text x="63" y="33" text-anchor="middle" fill="#99f6e4" font-family="'Segoe UI', sans-serif" font-size="10.5" font-weight="700">E-COMMERCE</text>
+  <rect x="18" y="18" width="90" height="22" rx="11" fill="#05081a" opacity="0.8" stroke="#34d399" stroke-width="1" />
+  <text x="63" y="33" text-anchor="middle" fill="#a7f3d0" font-family="'Segoe UI', sans-serif" font-size="10.5" font-weight="700">E-COMMERCE</text>
 
-  <text x="20" y="142" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="16.5" font-weight="700">Ayurvedic Shop Frontend</text>
-  <text x="20" y="166" fill="#93c5fd" font-family="'Segoe UI', sans-serif" font-size="12.5">Herbal e-commerce storefront &amp;</text>
-  <text x="20" y="184" fill="#93c5fd" font-family="'Segoe UI', sans-serif" font-size="12.5">wellness product catalog interface</text>
+  <text x="20" y="142" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="16.5" font-weight="700">Ayurvedic Shop</text>
+  <text x="20" y="166" fill="#cbd5e1" font-family="'Segoe UI', sans-serif" font-size="12.5">E-commerce &amp;</text>
+  <text x="20" y="184" fill="#cbd5e1" font-family="'Segoe UI', sans-serif" font-size="12.5">Analytics</text>
 
-  <line x1="20" y1="212" x2="290" y2="212" stroke="#1e3a8a" stroke-width="1.2" />
+  <line x1="20" y1="212" x2="290" y2="212" stroke="#1e293b" stroke-width="1.2" />
 
-  <circle cx="26" cy="236" r="4.5" fill="#2dd4bf" />
-  <text x="37" y="240" fill="#2dd4bf" font-family="'Segoe UI', sans-serif" font-size="12.5" font-weight="600">Python • Web Storefront • Analytics</text>
+  <circle cx="26" cy="236" r="4.5" fill="#60a5fa" />
+  <text x="37" y="240" fill="#60a5fa" font-family="'Segoe UI', sans-serif" font-size="12.5" font-weight="600">Python</text>
 </svg>
